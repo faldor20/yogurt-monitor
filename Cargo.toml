@@ -1,0 +1,20 @@
+[package]
+name = "yogurt-monitor"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+embedded-graphics = "0.7.1"
+anyhow= "1.0.58"
+sh1106 = "0.4.0"
+ssd1306 = "0.7.0"
+embedded-hal = "0.2.7"
+
+ds18b20 = "0.1.1"
+one-wire-bus = "0.1.1"
+futures = "0.3"
+smol="1.2.5"
+embedded-hal-async = "0.1.0-alpha.1" 
+snafu="0.7.1"
